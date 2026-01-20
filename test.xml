@@ -1,4 +1,4 @@
-<md:EntityDescriptor entityID="CN=Hello:Custom:ANA23" cacheDuration="PT1440M" ID="G_QyN8w_8N8A71STjaNU3VRjbQm" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+<md:EntityDescriptor entityID="https://idp.example.org/目录σaml" cacheDuration="PT1440M" ID="G_QyN8w_8N8A71STjaNU3VRjbQm" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
     <md:SPSSODescriptor AuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
         <md:KeyDescriptor use="signing">
             <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
