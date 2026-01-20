@@ -1,0 +1,77 @@
+<md:EntityDescriptor entityID="PingConnect" cacheDuration="PT1440M" ID="G_QyN8w_8N8A71STjaNU3VRjbQm" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+    <md:SPSSODescriptor AuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIC8DCCAdigAwIBAgIGAYTuxmloMA0GCSqGSIb3DQEBCwUAMDgxCzAJBgNVBAYTAkNBMRYwFAYD
+                        VQQKEw1QaW5nIElkZW50aXR5MREwDwYDVQQDEwgxMDB5ZWFyczAgFw0yMjEyMDcyMjQ4MTFaGA8y
+                        MTIyMTExMzIyNDgxMVowODELMAkGA1UEBhMCQ0ExFjAUBgNVBAoTDVBpbmcgSWRlbnRpdHkxETAP
+                        BgNVBAMTCDEwMHllYXJzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjGdTR5ReJ93Y
+                        LAwpwLz5icReeIyFJWzGNVsx4jLBWeWTteX87X0+X5kxZIZJ5eIw8+M4v41/NTfQp0yjNGL8heLc
+                        Y1zfh9vAUbyyZSogIhpeMqZmjaDasaTVqV7gLscIJW0kSniEv187zJA7G6e81ZGBCFXwcyEMnwFG
+                        OjDOGPhlObI1lawcVrx7KwzRMdCXUparElYB/uIEeNH4iLbAMiYImO8HCXhE5g2ndutbJtzr8Gfk
+                        BwBGQk9YdgbXzLDMwValDUlXR7P+HSOr+VzcIvmYgdrc7WridKeM9lBZZR9ls7cWAqqCew+FZSd9
+                        0QsH2rhvMIoqkYoJKb5ttV12uwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB65iuHJ/Ni/UAEMZHB
+                        mqi8XzVRlmfMoeSsY8DEARtlDgazWWcVu6W/9Xq9dmbbGi4SWd96G8FKK+XTqLhvZDEuilMpATkX
+                        EthPW08gtRMVOUeVJEKkWbsQeZQ0Vz4gR9KaXBckElB8ZDANaBMywf7dZAqCidl0zU9RTpvMUAKD
+                        CqVREmsrqWvrRwqevFzFhgHYNQiErT2AmMFOuMUhSMQvYcYLJRP0vJTTyKRoVqBCyJVTnnUEifd7
+                        wx33gI5x8L/8Dg+2ABWAaruk/Mooe49Dojy0cs8W14B65opSHcrupT/dSpcgSGNeRRi3FYJ1yRlY
+                        /lspszD+oOqgTOEJVAH4
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIHKTCCBhGgAwIBAgIQCGfJpRxdayIGKWyDE0TKfTANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQG
+                        EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypEaWdpQ2VydCBHbG9iYWwgRzIg
+                        VExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjUwNjAzMDAwMDAwWhcNMjYwNjAzMjM1OTU5WjCB
+                        hzELMAkGA1UEBhMCVVMxETAPBgNVBAgTCENvbG9yYWRvMQ8wDQYDVQQHEwZEZW52ZXIxIjAgBgNV
+                        BAoTGVBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24xMDAuBgNVBAMTJ2VuY3J5cHRpb24uc3NvLmNv
+                        bm5lY3QucGluZ2lkZW50aXR5LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANn5
+                        QL3BJSRykly7RaogIusKzlugxtnryzJB64X/3Tm7BfdXB0VozcptBAxsf2ju1r9tD41ZGvsxk6VX
+                        iBI0ZDYKhvca9I0sE/op46PaCC74Inov8XWWqZsDzvtWMa/MZtRiNpm8HgegW3AswvwMvAsSMABU
+                        FV6x5vL95LbN2rzsRxjDMkTipkqY/TKUfdpuO2Sy4f8exb3BmI2Vly+ul1q0lLrs8R9KHJa1YiyY
+                        oZaRz+2xqa+OYpy5vEKJ0kuu9Mhs6Kh/N/d1q8k2/RhLxkEHylpj00R7VScObKzl7ow3AMIdD00X
+                        ieU4IO4JQDSudPTegsv9SLSD546LZHRzwvkCAwEAAaOCA7wwggO4MB8GA1UdIwQYMBaAFHSFgMBm
+                        x9833s+9KTeqAx2+7c0XMB0GA1UdDgQWBBQayM0cDTFFn2T+YHuqBqVfoO/deDBMBgNVHREERTBD
+                        gidlbmNyeXB0aW9uLnNzby5jb25uZWN0LnBpbmdpZGVudGl0eS5jb22CGGNvbm5lY3QucGluZ2lk
+                        ZW50aXR5LmNvbTA+BgNVHSAENzA1MDMGBmeBDAECAjApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3
+                        LmRpZ2ljZXJ0LmNvbS9DUFMwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+                        BgEFBQcDAjCBnwYDVR0fBIGXMIGUMEigRqBEhkJodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGln
+                        aUNlcnRHbG9iYWxHMlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcmwwSKBGoESGQmh0dHA6Ly9jcmw0
+                        LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0xLmNybDCB
+                        hwYIKwYBBQUHAQEEezB5MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wUQYI
+                        KwYBBQUHMAKGRWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExT
+                        UlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMBAf8EAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0E
+                        ggFpAWcAdgAOV5S8866pPjMbLJkHs/eQ35vCPXEyJd0hqSWsYcVOIQAAAZc35cgQAAAEAwBHMEUC
+                        IAYFs/040rAJEFziGkXZTL7biLxVwhlgZEJ+EM3/YjvlAiEA9jU/RBSrOpWdsMEZPck4PzhMcL9O
+                        QEqhZAQ+rXJSrT0AdQBkEcRspBLsp4kcogIuALyrTygH1B41J6vq/tUDyX3N8AAAAZc35cg+AAAE
+                        AwBGMEQCICHyM5kZukeJ5gkz5+yXTG9B8wdwc3PUwK6ApHIO6AfgAiAd5H4Ne3qgCJbw7KBgXRtg
+                        fVpSMKVrloITItmsRKYkKAB2AEmcm2neHXzs/DbezYdkprhbrwqHgBnRVVL76esp3fjDAAABlzfl
+                        yFMAAAQDAEcwRQIhANYPamtWZcjJCRwWT7g7IIwuue7M1T/ByLmxbCtQ75o6AiAm7KZDXlPrQXxr
+                        mFJxQq1B1HwXMvkWOia4TVqPtZ+KvDANBgkqhkiG9w0BAQsFAAOCAQEAJJGbAAWmFWlJwN8Sp6JN
+                        Bepm0ftvWUGiLtltQcoTFVRpixwfugZCtpeI1Q9LElKfUKpk0Rc/u12R0hSQevBmET6nLdLt5uF6
+                        fojPDNV5nbpBxyc7NLxPmZZCa+paUyCu9vcUknf6AUeTYvg/14ygMCbm8Y4buIBX+8kwwekZMebz
+                        FC3d/PBFvTyhkjhPROi47hqk2FpF3oNM19woJF9QK65StqoeKFL45mUnmHj/EFYvjsqo4RGUr12d
+                        KRO6SqQyaYsUugDbNq8ynjgyu6UrqfrAt+kXpzzeUzCWt1GuhNhzpT/fQ2CnGNF7yj+tTi0bND9v
+                        jnTh16ut0PWoYqitVQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Location="https://sso.connect.pingidentity.com/sso/SLO.saml2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
+        <md:SingleLogoutService Location="https://sso.connect.pingidentity.com/sso/SLO.saml2" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AssertionConsumerService isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.connect.pingidentity.com/sso/sp/ACS.saml2" index="0"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="en">AttributeContract</md:ServiceName>
+            <md:RequestedAttribute Name="fname" isRequired="false"/>
+            <md:RequestedAttribute Name="lname" isRequired="false"/>
+            <md:RequestedAttribute Name="email" isRequired="false"/>
+            <md:RequestedAttribute Name="memberOf" isRequired="false"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor><md:ContactPerson contactType="administrative"/>
+</md:EntityDescriptor>
